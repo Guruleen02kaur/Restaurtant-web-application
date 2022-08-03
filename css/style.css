@@ -1,0 +1,270 @@
+/*  
+	Author: Gurleen Kaur;
+	Theme: Restaurant food order;
+	version:1.0;
+*/
+*{
+	margin: 0 0;
+	padding:0 0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/*css for all*/
+.container{
+	width:75%;
+	margin:0 auto;
+    padding: 1%;
+}
+.center{
+	align-content: center;
+}
+.text-center{
+	text-align:center;
+}
+.img-responsive {
+	width: 100%;
+}
+.img-curve{
+	border-radius:5px;
+}
+.text-right {
+	text-align: right;
+}
+.text-white{
+	text-decoration-color:#f5f6fa;
+}
+.clearfix{
+	clear:both;
+	float:none;
+}
+h2{
+	color:#2f3542;
+	margin:4%
+	
+}
+h3{
+	font-size:1.5rem;
+	margin:4%
+}
+.float-container{
+	position: relative;
+}
+.float-text{
+	position:absolute;
+	bottom:5%;
+}
+
+.Arrange-text{
+	position:absolute;
+	bottom:5%;
+	margin-left:35%;
+}
+
+/* css for navbar */
+.logo {
+	width: 11%;
+	border: 1px solid white;
+	float:left;
+}
+.Menu{
+	line-height:110px;
+}
+.Menu ul {
+  list-style-type:none;
+}
+.Menu ul li{
+	display:inline;
+	padding:1%;
+	font-weight:bold; 
+}
+a {
+	color: #FEA47F;
+	text-decoration: none;
+}
+a:hover {
+		color: #F97F51;
+	}
+
+/* css for food search*/
+
+.food-search{
+	background-image:url(../Images/frombg.jpg);
+	padding:11% 0;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.food-search page{
+	background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+		padding:11% 0;
+		background-size:cover;
+		background-repeat:no-repeat;
+		background-position:center;
+}
+.food-search input[type="search"]{
+	padding:1%;
+	width:50%;
+	font-size:1rem;
+	border:none;  border-radius:5px; 
+}
+.btn{
+	padding:1%;
+	border:none;
+	font-size:1rem;
+	border-radius:5px;
+}
+.btn-primary{
+	background-color: #FEA47F;
+	color:white;
+	cursor:pointer;
+}
+.btn-primary:hover {
+		background-color:#F97F51;
+		color: white;
+	}
+	
+
+/* css fro Explore Food*/
+
+.ExploreFood {
+	padding: 1% 0;
+	background-color:#f1f2f6;
+	
+}
+.White {
+	color:white;
+}
+.White:hover{
+	color:oldlace;
+}
+.Box3{
+	border:1px solid white;
+	width:28%;
+	float:left;
+	margin:2%;
+	
+}
+.success{
+    color: #6ab04c;
+}
+.error{
+    color:#ff4757;
+}
+/* css for Food Menu*/
+
+.Food-Menu{
+	border: 1px;
+	width: 37.3%;
+	margin :3%;
+	padding:1%;
+	float:left;
+	background-color: white;
+	border-radius: 5px;
+}
+.FoodMenu{
+	background-color: #F8EFBA;
+	
+}
+.Food-Menu-img{
+	width:35%;
+	float:left;
+	margin:5%;
+}
+.Food-Menu-desc{
+	width:45%;
+	float:left;
+	margin-left:2%;
+	padding-top:5%;
+	
+}
+
+/* css for Social Media*/
+.Social ul{
+	list-style-type: none;
+}
+.Social ul li{
+	display: inline;
+	padding:2%;
+}
+
+
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin:auto;
+
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+.Order-Deco{
+	background-image: linear-gradient(to right, #d2e78a, #a7ea9f, #7de9ba, #56e5d6, #41dfee);
+	padding-bottom: 5%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+.decro{
+background-color:#ffbe76;
+border:none;
+border-radius:5px;
+margin:5%;
+}
+.set{
+	margin:5%;
+}
+.btn-order{
+	padding:1%;
+	border:none;
+	font-size:1rem;
+	border-radius:5px;
+
+	background-color: #27D5E5;
+	color:white;
+	cursor:pointer;
+}
+
+
+/* css for mobile*/
+@media only screen and (max-width:760px) {
+	.logo{
+		width:80%;
+		float:none;
+		margin:1% auto;
+	}
+	.Menu ul{
+		text-align:center;
+	}
+	.food-search input[type="search"]
+	{
+		width:90%;
+		padding:2%;
+		margin-bottom:5%;
+	}
+	.btn{
+		width:91%;
+		padding:2%;
+	}
+	.Box3{
+		width:90%;
+		margin:4% auto;
+	}
+	.Categories{
+		padding:10% 0;
+		margin:auto;
+	}
+	.Food-Menu{
+		padding:5%;
+		width:90%;
+		margin-bottom:5%;
+	}
+}
